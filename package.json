@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-playwright-course",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test --headed",
+    "test:reporter": "playwright test --headed --reporter=allure-playwright,line,./my-awesome-reporter.ts",
+    "allure-report": "npx allure generate ./allure-results --clean && allure open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pochyxi/NODEJS-Playwright-course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pochyxi/NODEJS-Playwright-course/issues"
+  },
+  "homepage": "https://github.com/Pochyxi/NODEJS-Playwright-course#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.35.0",
+    "allure-commandline": "^2.22.1",
+    "allure-playwright": "^2.4.0"
+  }
+}

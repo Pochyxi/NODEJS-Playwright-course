@@ -1,0 +1,7 @@
+Raggiungo paggina
+Eseguo click del selettore: inputRadio1
+Il selettore è selezionato? true
+Eseguo click del selettore: inputRadio2
+Il selettore è selezionato? true
+Eseguo click del selettore: inputRadio3
+Il selettore è selezionato? true
